@@ -1,4 +1,36 @@
+/** @format */
+
 body {
+	text-align: center;
+	border: solid 3px white;
+	padding: 50px;
+	background-color: #efefef;
+}
+
+h1 {
+	color: #333;
+}
+
+p {
+	background-color: #999;
+	padding: 10px;
+}
+
+.App {
+	border: solid white 15px;
+}
+
+/*
+align-items: center;
+flex-direction: column;
+justify-content: center;
+*/
+/**/
+/**/
+/**/
+/**/
+/* ------ DEFAUT CODE INDEX.CSS
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +42,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
