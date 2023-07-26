@@ -1,21 +1,29 @@
-// AULA 09 Novo App.js
 /** @format */
-import "./App.css"
-import Evento from "./components/Evento"
-import Form from "./components/Form"
+
+import HelloWorld from "./components/HellWorld";
+import SayMyName from "./components/SayMyName";
+import Pessoa from "./components/Pessoa";
+import List from "./components/List";
 
 function App() {
-   return (
-      <div className="App">
-         <h1>Testando Eventos</h1>
-         <Evento numero="1" />
-         <Evento numero="2" />
-         <Form />
-      </div>
-   )
+	return (
+		<div className="App">
+			<HelloWorld />
+			<SayMyName nome="Matheus" />
+			<SayMyName nome="João" />
+			<SayMyName nome="Francisco" />
+			<Pessoa
+				nome="Milton"
+				idade="28"
+				profissao="Programador"
+				foto="https://via.placeholder.com/150"
+			/>
+			<List />
+		</div>
+	);
 }
 
-export default App
+export default App;
 
 //
 //
@@ -23,12 +31,7 @@ export default App
 //
 //
 // ------ DEFAUT CODE APP.JS
-/* USADOS NAS AULAS DE 1 ATÉ 9
-import HelloWorld from "./components/HellWorld";
-import SayMyName from "./components/SayMyName";
-import Pessoa from "./components/Pessoa";
-import List from "./components/List";
-*/
+
 // import logo from './logo.svg';
 // import './App.css';
 //
