@@ -1,16 +1,20 @@
 // AULA 09 Novo App.js
-/** @format */
 import "./App.css"
 import Evento from "./components/Evento"
 import Form from "./components/Form"
+import Frase from "./components/Frase"
 
 function App() {
    return (
       <div className="App">
-         <h1>Testando Eventos</h1>
-         <Evento numero="1" />
-         <Evento numero="2" />
-         <Form />
+         <div className="MargimBodyContainer">
+            <h1>Testando Eventos</h1>
+            <Evento numero="1" />
+            <Evento numero="2" />
+            <Evento numero="4" />
+            <Form />
+            <Frase />
+         </div>
       </div>
    )
 }

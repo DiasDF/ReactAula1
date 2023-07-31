@@ -1,10 +1,13 @@
 .fraseContainer {
-  background-color: #333;
-  border-bottom: 3px solid #111;
+   background-color: #333;
+   border-bottom: 3px solid #f34242;
+   box-shadow: 3px -16px rgb(151, 151, 238);
+   /* Teste de Comentário*/
+   /*  */
 }
 
 .fraseContent {
-  color: #fff;
-  background-color: #333;
-  margin: 0;
+   color: #b4e641;
+   background-color: #64925a;
+   margin: 0;
 }

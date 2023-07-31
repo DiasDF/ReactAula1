@@ -1,20 +1,38 @@
 function Form() {
    function cadastrarUsuario(e) {
       e.preventDefault()
-      console.log("Cadastrou o usuario!")
+      console.log('Cadastrou o usuario!')
    }
 
    return (
       <div>
          <h1>Meu Cadastro</h1>
-         <Form onSubmit={cadastrarUsuario}>
+         <form onSubmit={cadastrarUsuario}>
             <div>
-               <input type="text" placeholder="Digite o seu nome" />
+            <label htmlFor="name">Nome:</label>
+               <input 
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Digite o seu nome."
+                  // value={name}
+               />
             </div>
             <div>
-               <input type="submit" value="Cadastrar" />
+            <label htmlFor="password">Senha:</label>
+               <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Digite sua senha."
+                  // value="Cadastrar"
+                  // onChange={(e) => setPassword(e.target.value)}
+               />
             </div>
-         </Form>
+            <div>
+                <input type="submit" value="Cadastrar" />
+            </div>
+         </form>
       </div>
    )
 }
