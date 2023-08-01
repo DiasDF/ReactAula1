@@ -7,20 +7,19 @@
    background-color: #efefef;
 } */
 
-h1 {
+h1, h2 {
    color: #333;
 }
 
 p {
+   margin: 30px;
+   border-radius: 5px;
    background-color: #68b8e6;
    padding: 10px;
 }
 
 .App {
-   box-shadow: 18px 17px 22px -8px rgba(112, 103, 228, 0.3);
-   /* Dir/Esq(Offset-x) Superior/Infer(Offset-y) blur-radius(Raio de Desfoque) spread-radius(Raio de Propagação) */
-   /* rgba Red0, Green0, Blue0, Alpha(Opacidade)0.2 */
-   /* border: solid white 15px; */
+   padding: 50px;   
 }
 
 /*

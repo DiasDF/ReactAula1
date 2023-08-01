@@ -1,16 +1,16 @@
 function Form() {
    function cadastrarUsuario(e) {
       e.preventDefault()
-      console.log('Cadastrou o usuario!')
+      console.log("Cadastrou o usuario!")
    }
 
    return (
       <div>
-         <h1>Meu Cadastro</h1>
+         <h2>Meu Cadastro</h2>
          <form onSubmit={cadastrarUsuario}>
             <div>
-            <label htmlFor="name">Nome:</label>
-               <input 
+               <label htmlFor="name">Nome:</label>
+               <input
                   type="text"
                   id="name"
                   name="name"
@@ -19,7 +19,7 @@ function Form() {
                />
             </div>
             <div>
-            <label htmlFor="password">Senha:</label>
+               <label htmlFor="password">Senha:</label>
                <input
                   type="password"
                   id="password"
@@ -30,7 +30,7 @@ function Form() {
                />
             </div>
             <div>
-                <input type="submit" value="Cadastrar" />
+               <input type="submit" value="Cadastrar" />
             </div>
          </form>
       </div>
