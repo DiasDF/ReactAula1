@@ -1,35 +1,40 @@
 .App {
    text-align: center;
+   display: flex;
+   justify-content: center;
 }
 
 form {
-   border-radius: 1px 1px 10px 10px;
-   border: 30px solid rgb(247, 245, 245);
+   border-radius: 0px 0px 10px 10px;
+   border: 30px solid rgba(97, 218, 251, 1);
    background-color: rgba(97, 218, 251, 1);
    padding: 10px;
 }
 
-input[type="submit"] {
+/* 
+PERSONALIZAR UM INPUT ESPECÍFICO
+input[type='submit'] {
    padding: 5px;
-   border-radius: 5px;
    margin: 10px 10px;
    background-color: rgb(61, 164, 212);
-}
+} */
 
 input {
-   margin: 5px 0 0 5px;
+   padding: 3px;
+   border-radius: 3px;
+   margin: 5px 10px 0 5px;
    background-color: rgba(97, 230, 251, 1);
    border: none;
 }
 
 .MargimBodyContainer {
+   padding: 8px;
    max-width: 50%;
    border-radius: 1px 1px 10px 10px;
-   /* border: solid 5px rgba(233, 233, 231, 0.3); */
+   border: solid 0.5px rgba(233, 233, 231, 0.3);
    box-shadow: 18px 17px 22px -8px rgba(73, 71, 94, 0.3);
    /* Dir/Esq(Offset-x) Superior/Infer(Offset-y) blur-radius(Raio de Desfoque) spread-radius(Raio de Propagação) */
    /* rgba Red0, Green0, Blue0, Alpha(Opacidade)0.2 */
-   /* border: solid white 15px; */
 }
 
 .App-logo {
