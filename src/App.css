@@ -27,10 +27,23 @@ input {
    border: none;
 }
 
+p {
+   box-shadow: 1.8px 17px 22px -8px rgba(73, 71, 94, 0.3);
+}
+
+h1,
+h2,
+h3 {
+   padding: 7px;
+   border-radius: 4px;
+   background-color: rgba(37, 200, 255, 0.1);
+   text-shadow: 1.2px 1.2px rgba(73, 71, 94, 0.2);
+}
+
 .MargimBodyContainer {
    padding: 8px;
-   max-width: 50%;
-   border-radius: 1px 1px 10px 10px;
+   max-width: 90%;
+   border-radius: 5px 5px 10px 10px;
    border: solid 0.5px rgba(233, 233, 231, 0.3);
    box-shadow: 18px 17px 22px -8px rgba(73, 71, 94, 0.3);
    /* Dir/Esq(Offset-x) Superior/Infer(Offset-y) blur-radius(Raio de Desfoque) spread-radius(Raio de Propagação) */

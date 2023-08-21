@@ -1,15 +1,19 @@
-// AULA 12 em diante App.js
-// App-Aula11.js versão anterior
+// AULA 13 App.js
+// App-Aula12.js versão anterior
+
+// Criar o component OutraLista.js
 
 import './App.css'
-import Condicional from './components/Condicional'
+import OutraLista from './components/OutraLista'
 
 function App() {
+   const meusItens = ['React', 'Vue', 'Angular']
+
    return (
       <div className="App">
          <div className="MargimBodyContainer">
-            <h1>Renderização Condicional</h1>
-            <Condicional />
+            <h2>Renderização de Listas</h2>
+            <OutraLista itens={meusItens} />
          </div>
       </div>
    )
