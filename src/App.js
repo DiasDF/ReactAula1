@@ -1,21 +1,15 @@
-// AULA 13 App.js
-// App-Aula12.js versão anterior
+// AULA 15 - ROUTER App.js
+// App-Aula14.js versão anterior
 
-// Criar o component OutraLista.js
-
+// Criar 
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import './App.css'
-import OutraLista from './components/OutraLista'
+
 
 function App() {
-   const meusItens = ['React', 'Vue', 'Angular']
 
    return (
-      <div className="App">
-         <div className="MargimBodyContainer">
-            <h2>Renderização de Listas</h2>
-            <OutraLista itens={meusItens} />
-         </div>
-      </div>
+      
    )
 }
 

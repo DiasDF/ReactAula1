@@ -1,12 +1,21 @@
 function OutraLista({ itens }) {
    return (
       <>
-         <h3>Lista de Coisas Boas:</h3>
-         {itens.map((item, index) => (
-            <p key={index}>{item}</p>
-         ))}
+         <h3>Lista de Coisas:</h3>
+         {itens.lenght > 0 ? (
+            itens.map((item, index) => <p key={index}>{item}</p>)
+         ) : (
+            <p>Não há itens na lista!</p>
+         )}
+         
       </>
    )
 }
 
 export default OutraLista
+
+/* FORMA SIMPLES
+
+{itens.map((item, index) => (
+            <p key={index}>{item}</p>
+         ))} */
