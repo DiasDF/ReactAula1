@@ -1,0 +1,41 @@
+.list {
+   margin: 0 2.7em 0.7em;
+   border-bottom: 0.1em solid rgb(122, 149, 221);
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 13px;
+}
+
+.page {
+   display: contents;
+   gap: 30px;
+}
+
+/* .item {
+   text-decoration: none;
+} */
+
+a:-webkit-any-link {
+   cursor: pointer;
+   font-size: 1.2em;
+   text-decoration: none;
+   text-shadow: 1.2px 1.2px rgba(73, 71, 94, 0.2);
+}
+
+::marker {
+   color: transparent;
+}
+
+App, footer {
+   align-items: center;
+   align-self: flex-end;
+   display: flex;
+   margin-top: auto;
+   background-color: rgba(37, 200, 255, 0.1);
+   border-radius: 5px;
+   box-shadow: 1.8px 17px 22px -8px rgba(73, 71, 94, 0.3);
+   height: 27px;
+   justify-content: space-around;
+   /* justify-content: space-evenly; */
+   padding: 7px;
+}
