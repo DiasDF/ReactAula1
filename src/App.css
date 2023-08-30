@@ -9,9 +9,9 @@
    flex-direction: column; /* [display: flex] Linha (row); Column (Coluna), row-/column-reverse */
    gap: 30px;
    /* justify-content: center; [display: flex] Alinha na Vertical */
-   margin: 1.8em;
+   margin: 0 0.5em;
    text-align: center;
-   height: 100svh;
+   height: 93svh;
 }
 
 body {
